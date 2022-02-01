@@ -19,6 +19,14 @@ h2 {
   text-decoration: underline;
 }
 
+p {
+  font-size: 25px;
+}
+
+li {
+  font-size: 25px;
+}
+
 .container-fluid {
   padding: 5% 10%;
 }
@@ -52,13 +60,18 @@ h2 {
   color: white;
 }
 
-.colored-interests-section {
+.colored-oneDice-section {
   background-color: orange;
   color: white;
 }
 
-.colored-others-section {
+.colored-weather-section {
   background-color: brown;
+  color: white;
+}
+
+.colored-membership-section {
+  background-color: navy;
   color: white;
 }
 
