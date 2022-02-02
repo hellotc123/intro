@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat";
   text-align: left;
+  color: white;
 }
 
 .navbar-brand {
@@ -9,6 +10,10 @@ body {
 
 .nav-link {
   color: pink;
+}
+
+.navSize {
+  font-size: 30px;
 }
 
 h1 {
@@ -20,11 +25,11 @@ h2 {
 }
 
 p {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 li {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .container-fluid {
@@ -33,6 +38,7 @@ li {
 
 .navbar {
   padding: 0 0 4.5rem;
+
 }
 
 .navbar-brand {
@@ -42,12 +48,17 @@ li {
 }
 
 .nav-item {
-  padding: 0 18px
+  padding: 0 18px;
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: "Montserrat-Light";
+}
+
+.navbar-toggler-icon {
+  width: 3rem;
+  height: 3rem;
 }
 
 .colored-title-section {
@@ -61,17 +72,17 @@ li {
 }
 
 .colored-oneDice-section {
-  background-color: orange;
+  background-color: red;
   color: white;
 }
 
 .colored-weather-section {
-  background-color: brown;
+  background-color: blue;
   color: white;
 }
 
 .colored-membership-section {
-  background-color: navy;
+  background-color: green;
   color: white;
 }
 
@@ -94,8 +105,8 @@ li {
 }
 
 .button {
-  margin: 25px;
+  margin: 50px;
   background-color: yellow;
   display: inline-block;
-  height: 40px;
+  height: 70px;
 }
